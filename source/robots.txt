@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /categories/
+Disallow: /p/
+Disallow: /archives/
+Disallow: /cv/
+Disallow: /tags/
+Sitemap: http://trainspott.in/sitemap.xml
+
+User-Agent: W3C-checklink
+Disallow:
