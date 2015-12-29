@@ -15,15 +15,15 @@ categories: [front-end,css]
 
 
 理论上来说style为`position:fixed`的元素,不管他的父、子、兄弟元素如何变化,他的位置相对于屏幕可视区域的位置都是不会变化的.但是在实际操作中却发现并非如此,如下是一个简单的demo:
-####DEMO:
+#### DEMO:
 
 <iframe src="http://sandbox.runjs.cn/show/acnggx22" frameborder="0" style="width: 500px;height: 500px;">
 </iframe>
 查看源码 on [runjs.cn](http://runjs.cn/code/acnggx22)
 
 
-####Dom结构如下:
-```
+#### Dom结构如下:
+``` html
 <!DOCTYPE html>
 <html>
     <body>
@@ -35,8 +35,8 @@ categories: [front-end,css]
 </html>
 ```
 
-####样式:
-```
+#### 样式:
+``` css
 #wrap{
     width: 300px;
     height: 300px;
@@ -53,9 +53,9 @@ categories: [front-end,css]
 }
 ```
 
-####两个按钮:
+#### 两个按钮:
 作用分别是给`#wrap`添加和去除`transform`属性.
-```
+``` javascript
 $("#addtBtn").on("click",function(){
     $("#wrap").addClass("transformed");
 })
@@ -69,7 +69,7 @@ $("#removeBtn").on("click",function(){
 
 ---
 
-###小结:
+### 小结:
 `transform`作为css3的主要属性,他的**值**其实更像是一个个**方法**.打个比方来说,如果说css2的属性都是"静态"的属性,浏览器在渲染页面的时候,css渲染引擎是先将这些静态的样式渲染出来,再来计算css3的那些"方法".也就是说,`transform`属性是后产生作用.反映出的现象就是`transform`优先更高,甚至高于`position: fixed`.
 
 以上是我的一点粗陋的推想,请斧正,谢谢.

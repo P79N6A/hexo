@@ -59,10 +59,10 @@ dppx在数值上等于dpr
 ![416](http://stariveer.qiniudn.com/blog/150528/app_1_416.png)
 ![528](http://stariveer.qiniudn.com/blog/150528/app_1_528.png)
 
-```
+``` html
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 ```
-```
+``` javascript
 if(client_height<540 && client_height>500) {
     $('body').addClass('hehe_screen');
 }
@@ -72,7 +72,7 @@ if(client_height<420) {
     $('body').addClass('low_screen');
 }
 ```
-```
+``` css
 .very_low_screen .q_0_container {
     margin-top: -150px;
 }
@@ -90,10 +90,10 @@ if(client_height<420) {
 ![528](http://stariveer.qiniudn.com/blog/150528/app_2_528.png)
 
 
-```
+``` html
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
 ```
-```
+``` css
 html, body {
   position: absolute;
   width: 100%;
@@ -101,7 +101,7 @@ html, body {
   overflow: hidden;
 }
 ```
-```
+``` css
 .sprue {
   position: absolute;
   left: 18.06%;
@@ -120,7 +120,7 @@ html, body {
 - 定位:按像素绝对定位
 - 向下兼容:主要内容都在画面上半部分,下面的截掉了就截掉了无所谓
 
-```
+``` html
 <meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
 ```
 ![416](http://stariveer.qiniudn.com/blog/150528/app_3_416.jpeg)
@@ -133,7 +133,7 @@ html, body {
 - rem
 - 向下兼容: 超出部分有内容则出滚动条,除此之外也是放任截掉
 
-```
+``` html
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 ```
 
@@ -153,7 +153,7 @@ html, body {
 
 计算`<html>`标签font-size的算法
 
-```
+``` js
 !function(){
     var cw=document.documentElement.clientWidth||document.body.clientWidth,zoom=cw/320;
     if(cw>640)zoom=2;
@@ -172,11 +172,11 @@ html, body {
 - 绝对定位(像素)
 - 向下兼容:缩放
 
-```
+``` html
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 ```
 
-```
+``` css
 element.style {
 	zoom: 0.693333333333333;
 }
@@ -185,7 +185,7 @@ element.style {
 ![416](http://stariveer.qiniudn.com/blog/150528/app_5_416.jpeg)
 ![528](http://stariveer.qiniudn.com/blog/150528/app_5_528.jpeg)
 
-##总结
+## 总结
 1. `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">` 强制页面全宽
 2. (设计)主要内容尽量放在页面靠上部分,至少兼容iPhone4s
 3. 流式布局用rem体验最佳
