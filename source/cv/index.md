@@ -1,90 +1,93 @@
 title: CV
 date: 2015-10-10 18:39:44
 tags:
----
-##概况
-![](http://stariveer.qiniudn.com/cv/avatar_100.jpg)
-
-##何星-互联网前端求职简历
-*此简历在线版本请访问 http://trainspott.in/cv*
-
-###概况
-
-何星,1986年生,四川宜宾人,从事web前端五年以上.青岛理工大学 信息管理与信息系统专业.2010年初进入互联网行业,自学PS,html,css.热爱前端.在[豆瓣](http://www.douban.com/people/stariveer/) ,[twitter](https://twitter.com/stariveer) ,[github](https://github.com/stariveer) 厮混.自认为是个geek,有颗不折腾会死的心.
 
 ---
 
-###工作经历
-- 2010.01 — 2012.08 成都立方体科技有限公司 UI设计师/美工
-- 2012.09 — 2014.06 成都赢丰无线科技有限公司 前端开发工程师
-- 2014.07 — 2015.07 成都雷迈科技有限公司 前端开发工程师
+## EMAIL
+stariveer#gmail.com
+
 
 ---
 
-###技能
-
-- 熟悉web前端开发的技术和规范，熟练掌握Html5、JS、css3、jquery 等前端技术，**手写代码**。
-- 开发、升级改造过很多项目，**实践经验丰富**。
-- 熟悉那些必要的软件和工具：如 apache、nginx、PS、AI、axure、xmind、svn、git、markdown 等.重度工具党,常用sublime text 2和 webstorm .
-- 擅长**LESS**,能迅速上手sass或者stylus.熟悉bootstrap,编码过程中常借鉴其模块化思想.
-- 熟悉**gulp** .熟练使用OS X ,熟悉基本Linux指令.
+## 关键词
+geek 求知欲 责任感
 
 ---
 
-###个人爱好
+## 概况
+- 85后, 男, 四川宜宾人
+- 青岛理工大学 信息管理与信息系统 专业
+- 2010年初进入互联网行业, 自学(分先后)photoshop, [ html, css ], js
+
+---
+
+## SOCIAL NETWORK
+- [blog](http://trainspott.in)
+- [豆瓣](http://www.douban.com/people/stariveer)
+- [twitter](https://twitter.com/stariveer)
+- [github](https://github.com/stariveer)
+- [知乎](https://www.zhihu.com/people/he-xing)
+- [v2ex](http://v2ex.com/member/stariveer)
+
+
+---
+
+## 技能
+- 熟悉web前端开发的技术和规范, 熟练掌握html5、css3、js、jQuery 等前端技术, **手写代码**
+- 项目经验丰富
+- 熟悉那些必要的软件和工具：如 node、webserver、PS、AI、axure、xmind、svn、git、markdown等. 对Linux指令有所了解.
+- 工具驱动, 开发环境: **OS X**, 常用IDE: sublime text、**webstorm**, 常用浏览器: chrome
+- 擅长css ,精通**less、sass**等预处理工具
+- 熟悉前端工作流(**gulp、grunt**), 认为优雅的工作流是高质量的前端实现的前提
+
+---
+
+## 近期项目
+项目 | 网址 | 描述
+:-- |:-- |:--
+宾果互动团队介绍live app| http://g.bingo2o.com/bingo/case/zhihuijia/ | 手写css3动画
+京东智惠家H5活动页| http://bingo2o.com/team | 手写css3动画
+企业魔方个人版 |http://m.cubepart.com | 负责移动端webApp前端所有开发任务.<br>独立完成技术选型,目录搭建,工作流编写,代码实现.<br>主要使用以下技术:<br>gulp,<br>require.js,<br>jQuery,<br>sass,YO(UI框架),<br>swig(js模板引擎),<br>iconfont
+云金融 | https://www.aihuanqian.com<br>https://www.licaiwu.com<br>https://licai.pzb.com/<br>https://www.skysung.com/<br>https://www.huiminloan.com/ | 重构方向: 模块化
+
+---
+
+## 前端技能自评(1-10)
+
+技能 | 分数
+:--|:--
+HTML5 / XHTML | 8
+CSS2.1 / CSS3 | 8
+JavaScript / Ajax | 6
+jQuery | 6
+CSS Frameworks /Resets | 7
+UX / Usability | 6
+Website Speed / Performance | 6
+Debugging Tools (chrome dev tools, etc) | 7
+Responsive Web Design | 7
+Mobile Web Development | 8
+Cross-Browser Bugs and Inconsistencies (primarily IE6-8) | 6
+CSS Pre-Processors (LESS / Sass) | 8
+Version Control (Git / GitHub / CVS / Subversion) | 6
+HTML5 APIs (Canvas, Geolocation, Video, etc.) | 5
+Image Editing Tools (Photoshop, etc.) | 8
+Web Font Embedding | 8
+SEO Basics | 6
+Frontend workflows (gulp, grunt, etc) | 7
+AMD / CommonJs | 6
+
+---
+
+## 个人爱好
 
 [电影](http://movie.douban.com/people/stariveer/), [摄影](https://500px.com/stariveer), 旅行,音乐
 
 ---
 
-###前端技能自评(1-10)
+## 求组织
 
-技能 | 分数
-:--|:--
-HTML5 / XHTML | 9
-CSS2.1 / CSS3 | 9
-JavaScript / Ajax | 5
-jQuery | 5
-CSS Frameworks /Resets | 7
-UX / Usability | 8
-Website Speed / Performance | 7
-Debugging Tools (chrome dev tools, etc) | 9
-Responsive Web Design | 7
-Mobile Web Development | 7
-Cross-Browser / Cross-Platform Development | 7
-Cross-Browser Bugs and Inconsistencies (primarily IE6-8) | 5
-CSS Pre-Processors (LESS / Sass) | 9
-Version Control (Git / GitHub / CVS / Subversion) | 7
-HTML5 APIs (Canvas, Geolocation, Video, etc.) | 6
-Back-end Templating languages/technologies (PHP etc) | 2
-Image Editing Tools (Photoshop, etc.) | 9
-Web Font Embedding | 8
-SEO Basics | 7
-
----
-
-###近期部分web项目
-*不想输入网址,请前往个人网站: http://trainspott.in/cv 查看*
-
-项目 | 网址
-:--|:--
-某电商促销live app | http://g.bingo2o.com/bingo/case/zhihuijia/
-某微信轻应用开发团队介绍live app | http://bingo2o.com/team
-
----
-
-###求组织
-
-请给我和公司共同进步的机会
-
----
-
-###联系我
-
-tel :186-0281-1024
-
-email : stariveer@gmail.com
-
+希望与牛人为伍, 并成为牛人
 
 
 
