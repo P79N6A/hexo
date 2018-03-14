@@ -1,93 +1,56 @@
-title: CV
-date: 2015-10-10 18:39:44
-tags:
+# 何星-近期项目
 
----
+## 概述:
 
-## EMAIL
-stariveer#gmail.com
+目前在行理财产品 H5 端,暂无预览地址
 
+### 技术栈:
 
----
+* ES6 + typescript
+* postcss + BEM
+* Vue + Vue router + vuex
+* webpack devServer + packing
+* date-fns + vuelidate
+* ...
 
-## 关键词
-geek 求知欲 责任感
+### 像素级还原设计稿:
 
----
+![](http://stariveer.qiniudn.com/projects/20180132/%E6%88%AA%E5%9B%BE.png)
 
-## 概况
-- 85后, 男, 四川宜宾人
-- 青岛理工大学 信息管理与信息系统 专业
-- 2010年初进入互联网行业, 自学(分先后)photoshop, [ html, css ], js
+### 脚手架说明
 
----
+项目组采用统一的 eslint 配置和 js/css/vue/html format 工具:
 
-## SOCIAL NETWORK
-- [blog](http://trainspott.in)
-- [豆瓣](http://www.douban.com/people/stariveer)
-- [twitter](https://twitter.com/stariveer)
-- [github](https://github.com/stariveer)
-- [知乎](https://www.zhihu.com/people/he-xing)
-- [v2ex](http://v2ex.com/member/stariveer)
+![](http://stariveer.qiniudn.com/projects/20180132/104544.png)
 
+<hr>
 
----
+src 主要目录说明:
 
-## 技能
-- 熟悉web前端开发的技术和规范, 熟练掌握html5、css3、js、jQuery 等前端技术, **手写代码**
-- 项目经验丰富
-- 熟悉那些必要的软件和工具：如 node、webserver、PS、AI、axure、xmind、svn、git、markdown等. 对Linux指令有所了解.
-- 工具驱动, 开发环境: **OS X**, 常用IDE: sublime text、**webstorm**, 常用浏览器: chrome
-- 擅长css ,精通**less、sass**等预处理工具
-- 熟悉前端工作流(**gulp、grunt**), 认为优雅的工作流是高质量的前端实现的前提
+![](http://stariveer.qiniudn.com/projects/20180132/105049.png)
 
----
+<hr>
 
-## 近期项目
-项目 | 网址 | 描述
-:-- |:-- |:--
-宾果互动团队介绍live app| http://g.bingo2o.com/bingo/case/zhihuijia/ | 手写css3动画
-京东智惠家H5活动页| http://bingo2o.com/team | 手写css3动画
-企业魔方个人版 |http://m.cubepart.com | 负责移动端webApp前端所有开发任务.<br>独立完成技术选型,目录搭建,工作流编写,代码实现.<br>主要使用以下技术:<br>gulp,<br>require.js,<br>jQuery,<br>sass,YO(UI框架),<br>swig(js模板引擎),<br>iconfont
-云金融 | https://www.aihuanqian.com<br>https://www.licaiwu.com<br>https://licai.pzb.com/<br>https://www.skysung.com/<br>https://www.huiminloan.com/ | 重构方向: 模块化
+postcss 变量:
 
----
+![](http://stariveer.qiniudn.com/projects/20180132/105246.png)
 
-## 前端技能自评(1-10)
+<hr>
 
-技能 | 分数
-:--|:--
-HTML5 / XHTML | 8
-CSS2.1 / CSS3 | 8
-JavaScript / Ajax | 6
-jQuery | 6
-CSS Frameworks /Resets | 7
-UX / Usability | 6
-Website Speed / Performance | 6
-Debugging Tools (chrome dev tools, etc) | 7
-Responsive Web Design | 7
-Mobile Web Development | 8
-Cross-Browser Bugs and Inconsistencies (primarily IE6-8) | 6
-CSS Pre-Processors (LESS / Sass) | 8
-Version Control (Git / GitHub / CVS / Subversion) | 6
-HTML5 APIs (Canvas, Geolocation, Video, etc.) | 5
-Image Editing Tools (Photoshop, etc.) | 8
-Web Font Embedding | 8
-SEO Basics | 6
-Frontend workflows (gulp, grunt, etc) | 7
-AMD / CommonJs | 6
+icon 库,使用时仅需采用约定的 class:
 
----
+![](http://stariveer.qiniudn.com/projects/20180132/105324.png)
 
-## 个人爱好
+### 预定义公共组件(与业务流程无关):
 
-[电影](http://movie.douban.com/people/stariveer/), [摄影](https://500px.com/stariveer), 旅行,音乐
+![](http://stariveer.qiniudn.com/projects/20180132/1520849954126.jpg)
 
----
+## 魔鬼在细节:
 
-## 求组织
+### 使用 rem 实现等比缩放
 
-希望与牛人为伍, 并成为牛人
+![](http://stariveer.qiniudn.com/projects/20180132/2018-03-14%2018_25_32.gif)
 
+### 表单所有必填项不为空时提交按钮才可以点击 & input 获取焦点时显示清空按钮 &输入手机号自动处理为 3-4-4 格式
 
-
+![](http://stariveer.qiniudn.com/projects/20180132/2018-03-14%2018_38_13.gif)
