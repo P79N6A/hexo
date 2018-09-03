@@ -1,8 +1,8 @@
 ---
 title: 白话版大O算法复杂度
 date: 2018-08-03 14:57:52
-tags: [javascript]
-categories: [front-end]
+tags: [JavaScript]
+categories: [front-end, JavaScript]
 mathjax: true
 ---
 
