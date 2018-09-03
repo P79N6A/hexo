@@ -7,7 +7,7 @@ title: He Xing's waking life
 ? subtitle
 ? description
 author: He Xing
-language: zh_CN
+language: zh-CN
 ? timezone
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: polarbearsimple
+theme: next
 
 # 在归档页面显示所有文章 （Show all articles at archive page.）
 # 需要安装(Need to install) hexo-generator-archive 插件支持
@@ -86,4 +86,13 @@ archive_generator:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  ? type
+  type: git
+  repository: git@github.com:stariveer/stariveer.github.io.git
+
+math:
+  enable: true
+  engine: mathjax
+  mathjax:
+    # src: custom_mathjax_source
+    config:
+      # MathJax config
