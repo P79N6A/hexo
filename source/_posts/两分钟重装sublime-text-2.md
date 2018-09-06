@@ -1,8 +1,8 @@
+---
 title: 两分钟重装 sublime text 2
 date: 2014-10-27 17:27:06
 tags: [sublime]
-categories: [front-end,tool chain]
-
+categories: [front-end, tool chain]
 ---
 
 [sublime text](ttp://www.sublimetext.com) 虽好,却无奈会时不时会崩溃掉(频率 < 2 次/年),而又只能手动安装、配置插件.故将符合本人使用习惯的版本还原方法在此备份如下:

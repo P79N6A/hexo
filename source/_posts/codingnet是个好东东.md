@@ -1,8 +1,8 @@
+---
 title: coding.net 是个好东东
 date: 2014-08-30 15:57:26
-tags: [coding.net,git]
+tags: [coding.net, git]
 categories: [power user of everything]
-
 ---
 
 前几天发现有个垃圾站的域名是 xxx.coding.net,当时还闪了一下怎么垃圾站的域名都这么高大上了.也没多长个心眼去看看顶级域名是什么情况.

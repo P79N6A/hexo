@@ -1,8 +1,8 @@
-title: "关于 css position:fixed 和 transform 的一点研究"
+---
+title: '关于 css position:fixed 和 transform 的一点研究'
 date: 2014-09-02 13:52:05
-tags: [css,fixed,transform]
-categories: [front-end,css]
-
+tags: [css, fixed, transform]
+categories: [front-end, css]
 ---
 
 先摘抄 w3school 对`position:fixed`和`transform:translate()`的定义:
