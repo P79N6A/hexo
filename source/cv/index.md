@@ -3,15 +3,35 @@ title: 何星-个人简历
 date: 2018-09-03 16:31:43
 ---
 
+## 自我描述
+
+- 效率至上, tool chain 优先。善于发现优秀的软件/工具/IDE 插件和浏览器插件，不怕折腾
+- 积极推进团队技术升级，成果：svn => git => gitflow，gulp/jquery/requirejs => webpack/vue.js，webstorm/sublime => vscode
+- 积极推广和布道优雅的编程之道，制定 css、js、vue、git commit 代码规范，并在团队落地
+- 谷人希，大学之后再未使用过百度
+
+## 关于前端
+
+- 精通 html5、css3（less、sass、stylus、postcss），深刻把握 UI/UE/UX，像素级还原设计稿
+- 精通 js（es5、es6、typescript）, 手写代码
+- 精通主流前端 UI 组件库, 项目中常用 bootstrap、YO、element-ui、Vant，深刻掌握组件封装思路和规范
+- 精通 Vue.js（vuex, vue-router, vuelidate），在项目中落地 ts 开发方案
+- 精通前端工作流（grunt、gulp、webpack）,熟悉 node 和 linux shell。前后负责十余个中型前端项目的立项/选型/架构和关键代码编写
+- 熟悉前端模板引擎（swig、artTemplate、nunjucks）
+- 精通各种 css 解决方案, 如 flex、REM、iconfont 等
+- 熟悉 git-flow，在团队中布道并落地
+- 轻度代码洁癖，制定团队代码标准并实施
+- 熟悉前端开发必要的工具（PS、AI、axure、xmind、omniPlan、markdown、charles）
+
 ## 项目经验:
 
-### 云金融平台 PC 端（refactor）
+### 云金融平台 PC 端(refactor)
 
 <div style="vertical-align:top; display: inline-block;width: 33.333%">![](/pic/cv/demo-pc.png)</div><div style="vertical-align:top; display: inline-block;width: 33.333%">![](/pic/cv/demo-pc1.png)</div><div style="vertical-align:top; display: inline-block;width: 33.333%">![](/pic/cv/demo-pc2.png)</div><div style="vertical-align:top; display: inline-block;width: 33.333%">![](/pic/cv/demo-pc3.png)</div><div style="vertical-align:top; display: inline-block;width: 33.333%">![](/pic/cv/demo-pc4.png)</div><div style="vertical-align:top; display: inline-block;width: 33.333%">![](/pic/uikit/uikit4.png)</div>
 
 #### 本人职责
 
-前端架构 & 组件库开发 & 关键代码编写 & code rereview
+前端架构 & 组件库开发 & 关键代码编写 & code review
 
 #### 项目起止时间
 
@@ -24,7 +44,7 @@ date: 2018-09-03 16:31:43
 - 基于[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/blob/master/README.md)、[Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css/blob/master/README.md)制定团队代码规范，并在项目中使用统一 eslint 配置，有效提升团队代码质量
 - 制定团队 IDE（vscode）/插件配置指南，实现团队代码风格一致化
 - 采用 git 工作流（gitflow），实现前端项目生命周期规范化
-- 参考[Contributing to AngularJS](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md)制定团队 git commit 规范，[详见](/pic/cv/git-commit-rules.png)
+- 参考[Contributing to AngularJS](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md)制定团队 git commit 规范，详见[git commit 规范](/frontend-doc/coding_standards/git-commit.html)
 - 基于开源 UI 组件库[uikit](http://www.getuikit.net/)(MIT)二次开发基础组件库，实现**开箱即用**，详见[wex-uikit](/cv/wex-uikit.html)
 - 脚手架基于 vue cli 2.x，修改打包流程 spa => multi pages，并加入配置项，实现静态资源服务器 domain 配置化。解决了开发->联调->测试->上线各阶段部署需重复打包的问题，打包发布效率成倍提升。
 - 技术栈：
@@ -41,14 +61,15 @@ date: 2018-09-03 16:31:43
 
 ---
 
-### 云金融平台 H5 端（refactor）
+### 云金融平台 H5 端(refactor)
 
 ![](/pic/cv/wap2.1.png)
+
 <div style="vertical-align:top; display: inline-block;width: 66.666%">![](http://stariveer.qiniudn.com/projects/20180132/2018-03-14%2018_25_32.gif)</div><div style="vertical-align:top; display: inline-block;width: 33.333%">![](http://stariveer.qiniudn.com/projects/20180132/2018-03-14%2018_38_13.gif)</div>
 
 #### 本人职责
 
-前端架构 & 组件库开发 & 关键代码编写 & code rereview
+前端架构 & 组件库开发 & 关键代码编写 & code review
 
 #### 项目起止时间
 
@@ -57,7 +78,7 @@ date: 2018-09-03 16:31:43
 #### 项目描述
 
 - 此项目为金融产品交易平台重构，包含交易/充值/提现/订单管理等功能 （[详情](/cv/project.html)）
-- UI 库采用开源 UI 组件库 [vant](https://youzan.github.io/vant/#/zh-CN/intro)（MIT）
+- UI 库基于开源组件库 [vant](https://youzan.github.io/vant/#/zh-CN/intro)（MIT），根据项目需求二次开发
 - 技术栈：
   - typescript/es6
   - webpack/vue.js/vue-router/vuex
@@ -96,7 +117,7 @@ N/A（内部项目，暂未部署到外网）
   - 数据可视化：echarts
   - css 预处理：sass
   - css 规范：BEM
-  - - lodash/vue-baidu-map/wangeditor etc...
+  - lodash/vue-baidu-map/wangeditor etc...
 
 #### 项目地址
 
@@ -133,7 +154,7 @@ N/A（内网项目）
 
 ---
 
-### 云金融平台 PC 端（legacy）
+### 云金融平台 PC 端(legacy)
 
 <div style="vertical-align:top; display: inline-block;width: 33.333%">![](/pic/cv/xlubank.png)</div><div style="vertical-align:top; display: inline-block;width: 33.333%">![](/pic/cv/xlubank-3.png)</div><div style="vertical-align:top; display: inline-block;width: 33.333%">![](/pic/cv/xlubank-4.png)</div>
 
@@ -195,7 +216,7 @@ N/A（内网项目）
 
 ---
 
-## side project
+## side projects
 
 ### 云金融前端手册
 
@@ -215,4 +236,76 @@ N/A（内网项目）
 
 #### 项目地址
 
-[云金融前端开发手册](/frontend-doc/)（已 remove 敏感信息，仅作为何星个人展示）
+[云金融前端开发手册](/frontend-doc/)
+
+---
+
+### nas-about-me
+
+![](/pic/about-me/nas.png)
+
+#### 本人职责
+
+所有前端相关任务均为本人完成
+
+#### 项目起止时间
+
+2018/05 ~ 2018/06
+
+#### 项目描述
+
+- 本项目为试水之作，基于区块链技术（NAS）开发，通过钱包地址生成一个简易个人首页
+- 调用 NAS 公链接口，将个人信息储存到公链
+- 技术栈：
+  - typescript/es6
+  - webpack/vue.js/vue-router/vuex
+
+#### 项目地址
+
+[https://aboutme.nasdapp.club/](https://aboutme.nasdapp.club/)
+
+---
+
+### 京东-智惠家
+
+![](/pic/cv/zhihuijia.png)
+
+#### 本人职责
+
+前端编码
+
+#### 项目起止时间
+
+2015/05 ~ 2015/05
+
+#### 项目描述
+
+- 为京东设计制作智能家居卖场推广页
+- 像素级还原设计稿，手写 css3 动画
+
+#### 项目地址
+
+无（已下线）
+
+---
+
+### bingo team intro
+
+<iframe src="/team_intro/" frameborder="0" width=“320” height="468"></iframe>
+
+#### 本人职责
+
+前端编码，手写 css3，满满的情怀：）
+
+#### 项目起止时间
+
+2015/05 ~ 2015/05
+
+#### 项目描述
+
+- 2015 年中创业时期给小伙伴们写的团队介绍
+- 没错，里面爱吃菠萝的前端程序员就是本人了~（键盘 ↑↓ 键控制翻页）
+
+#### 项目地址
+
+无（已下线）

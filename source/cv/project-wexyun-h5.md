@@ -1,20 +1,34 @@
 ---
-title: 近期项目
+title: 云金融平台 H5 端（refactor）
 date: 2018-09-03 16:31:43
 ---
 
-## 概述:
+> [返回简历首页](/cv)
 
-目前在行理财产品 H5 端,暂无预览地址
+## 本人职责
 
-### 技术栈:
+前端架构 & 组件库开发 & 关键代码编写 & code rereview
 
-- ES6 + typescript
-- postcss + BEM
-- Vue + Vue router + vuex
-- webpack devServer + packing
-- date-fns + vuelidate
-- ...
+## 项目起止时间
+
+2018/01 ~ 至今
+
+### 项目描述
+
+- 此项目为金融产品交易平台重构，包含交易/充值/提现/订单管理等功能 （[详情](/cv/project.html)）
+- UI 库基于开源组件库 [vant](https://youzan.github.io/vant/#/zh-CN/intro)（MIT），根据项目需求二次开发
+- 技术栈：
+  - typescript/es6
+  - webpack/vue.js/vue-router/vuex
+  - http 库：axios，自行封装 api.js 处理后端返回的状态码，采用 mock.js 进行接口模拟
+  - 表单同步验证：vuelidate
+  - 数据可视化：echarts
+  - css 后处理：postcss
+  - css 规范：BEM
+
+#### 项目地址
+
+N/A（内部项目，暂未部署到外网）
 
 ### 像素级还原设计稿:
 
