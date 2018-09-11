@@ -4,7 +4,7 @@ tags:
 
 ---
 
-现居成都，前端开发者。
+现居成都，coder
 
 - email: stariveer#gmail.com
 - twitter: [https://twitter.com/stariveer](https://twitter.com/stariveer)
