@@ -1,7 +1,7 @@
 ---
 title: Live App 页面布局
 date: 2015-05-28 21:12:59
-tags: [live app]
+tags: [live, app]
 category: [front-end, css]
 ---
 
