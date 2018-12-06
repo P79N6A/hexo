@@ -6,7 +6,7 @@ categories: [front-end, JavaScript]
 mathjax: true
 ---
 
-![大O算法](http://stariveer.qiniudn.com/blog/180803/bigo.webp)
+![大O算法](/pic/qiniu/blog/180803/bigo.webp)
 
 via [如何理解算法时间复杂度的表示法 O(n²)、O(n)、O(1)、O(nlogn)等？ - 司马懿的回答 - 知乎](https://www.zhihu.com/question/21387264/answer/422323594) 侵删
 

@@ -34,7 +34,7 @@ category: [front-end, css]
 
 dppx 在数值上等于 dpr
 
-![](http://stariveer.qiniudn.com/blog/150528/dpr_scr.jpg)
+![](/pic/qiniu/blog/150528/dpr_scr.jpg)
 
 [查看更多设备的 dppx](http://dpi.lv)
 
@@ -63,8 +63,8 @@ dppx 在数值上等于 dpr
 - 布局方式:流式布局
 - 向下兼容:主体部分高度不变
 
-![416](http://stariveer.qiniudn.com/blog/150528/app_1_416.png)
-![528](http://stariveer.qiniudn.com/blog/150528/app_1_528.png)
+![416](/pic/qiniu/blog/150528/app_1_416.png)
+![528](/pic/qiniu/blog/150528/app_1_528.png)
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -96,8 +96,8 @@ if (client_height < 420) {
 - 向下兼容:尽量保持主要区域可见.可以看见对于高度极端不足的 iphone4 屏幕实际上是舍弃了(东西点不到)
 - 整个页面未写 height 属性,所有`background-image`容器均使用`padding-bottom`撑出高度
 
-![416](http://stariveer.qiniudn.com/blog/150528/app_2_416.png)
-![528](http://stariveer.qiniudn.com/blog/150528/app_2_528.png)
+![416](/pic/qiniu/blog/150528/app_2_416.png)
+![528](/pic/qiniu/blog/150528/app_2_528.png)
 
 ```html
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
@@ -137,8 +137,8 @@ body {
 <meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
 ```
 
-![416](http://stariveer.qiniudn.com/blog/150528/app_3_416.jpeg)
-![528](http://stariveer.qiniudn.com/blog/150528/app_3_528.jpeg)
+![416](/pic/qiniu/blog/150528/app_3_416.jpeg)
+![528](/pic/qiniu/blog/150528/app_3_528.jpeg)
 
 ### (京东)京东 618 全民红包摇摇摇
 
@@ -152,11 +152,11 @@ body {
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 ```
 
-![416](http://stariveer.qiniudn.com/blog/150528/app_4_416_1.jpeg)
-![528](http://stariveer.qiniudn.com/blog/150528/app_4_528_1.jpeg)
+![416](/pic/qiniu/blog/150528/app_4_416_1.jpeg)
+![528](/pic/qiniu/blog/150528/app_4_528_1.jpeg)
 
-![416](http://stariveer.qiniudn.com/blog/150528/app_4_416_2.jpeg)
-![528](http://stariveer.qiniudn.com/blog/150528/app_4_528_2.jpeg)
+![416](/pic/qiniu/blog/150528/app_4_416_2.jpeg)
+![528](/pic/qiniu/blog/150528/app_4_528_2.jpeg)
 
 ### 京东微信购物礼包
 
@@ -203,8 +203,8 @@ element.style {
 }
 ```
 
-![416](http://stariveer.qiniudn.com/blog/150528/app_5_416.jpeg)
-![528](http://stariveer.qiniudn.com/blog/150528/app_5_528.jpeg)
+![416](/pic/qiniu/blog/150528/app_5_416.jpeg)
+![528](/pic/qiniu/blog/150528/app_5_528.jpeg)
 
 ## 总结
 

@@ -5,7 +5,7 @@ tags: [微信, 信息推送]
 categories: [power user of everything]
 ---
 
-![](http://stariveer.qiniudn.com/blog/180903/weichat.jpg)
+![](/pic/qiniu/blog/180903/weichat.jpg)
 
 ## 前言
 
@@ -56,7 +56,7 @@ categories: [power user of everything]
 - 小程序（即用即搜，用完即走）
 - 支付（说句题外话，支付宝 vs 微信支付这件事上我却比较看好微信，毕竟支付宝能做的事微信都能做，微信能做的事支付宝却未必）
 
-<span style="display:inline-block;width:320px">![](http://stariveer.qiniudn.com/blog/180903/faxianyeguanli.jpg)</span>
+<span style="display:inline-block;width:320px">![](/pic/qiniu/blog/180903/faxianyeguanli.jpg)</span>
 
 除了一些会员类和银行提醒类的公众号，再没关注任何其他公众号。
 

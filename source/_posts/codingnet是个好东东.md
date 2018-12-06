@@ -11,7 +11,7 @@ categories: [power user of everything]
 
 经过我近一天的使用,感觉`coding.net`是想做成中国的 github,同样可以建立远程 git 库,可以 clone 别人的 git 库,可以 fork...等等等等.但是这货比 github 强在它的演示空间居然提供 php 环境(github.io 只提供静态空间)!只需要简单的把本地的工程 push 到云端,配置好数据库,再切换到`演示`面板,点击`部署`就不用管了..实测访问速度超过某些号称高速的 vps(服务器在国内就是好).
 
-![coding.net演示界面截图](http://stariveer.qiniudn.com/blog/140830/140830_coding.net.jpg)
+![coding.net演示界面截图](/pic/qiniu/blog/140830/140830_coding.net.jpg)
 
 `coding.net`不支持 github.io 的自动部署,每次 push 代码之后需要手动点一下`一键部署`.
 
